@@ -6,6 +6,13 @@
   font-size: var(--fc-small-font-size);
 }
 
+// --- For all event titles ---
+.fc-event-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 // --- the rectangle ("block") style of event ---
 
 .fc-daygrid-block-event {
@@ -32,7 +39,6 @@
     flex-grow: 1;
     flex-shrink: 1;
     min-width: 0; // important for allowing to shrink all the way
-    overflow: hidden;
     font-weight: bold;
   }
 

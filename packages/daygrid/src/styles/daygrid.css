@@ -172,6 +172,10 @@ $daygrid-event-mirror-z: 7;
   & .fc-more-popover .fc-popover-body {
     min-width: 220px;
     padding: 10px;
+    max-height: 40vh;
+    max-width: 32vw;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
 }
